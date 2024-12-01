@@ -1,0 +1,3 @@
+/home/xjl/TinyKernel/tinyKernel/build/CMakeFiles/myos.dir
+/home/xjl/TinyKernel/tinyKernel/build/CMakeFiles/edit_cache.dir
+/home/xjl/TinyKernel/tinyKernel/build/CMakeFiles/rebuild_cache.dir

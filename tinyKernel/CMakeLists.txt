@@ -15,9 +15,11 @@ set(C_FLAGS -std=c99 -g -m32 -O3 -c -fno-exceptions -nostdlib -ffreestanding -Wa
 set(LD_FLAGS -m32 -T ${CMAKE_SOURCE_DIR}/arch/i386/linker.ld -ffreestanding -nostdlib)
 set(LIBS -lgcc)
 
-set(INCLUDE_DIRS 
-    ${CMAKE_SOURCE_DIR}/include/drivers/video
-    ${CMAKE_SOURCE_DIR}/include/gdt)
+file(GLOB INCLUDE_DIRS 
+    "${CMAKE_SOURCE_DIR}/include/*"
+    "${CMAKE_SOURCE_DIR}/include/*/*"
+
+)
 
 # 设置包含目录
 set(INCLUDE_FLAGS "")

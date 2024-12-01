@@ -2,7 +2,7 @@
 #include <stddef.h>
 #include <stdint.h>
 #include "video.h"
-
+#include "string.h"
 
 #if defined(__linux__)
 #error "You are not using a cross-compiler"
@@ -13,15 +13,7 @@
 #endif
 
 
-size_t strlen(const char* str){
-    size_t len = 0;
-    while ((str[len]))
-    {
-        len++;
-    }
-    return len;
-    
-}
+
 
 
 
@@ -34,6 +26,7 @@ void kernel_early_main(int argc,char**argv){
 
     //drawchar('A',0,0,white,blue);
     drawstring("222221",0,0,white,black);
+    strlen("2222");
         
 }
 
