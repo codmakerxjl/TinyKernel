@@ -1,9 +1,0 @@
-# Hashes of file build rules.
-5bbbfb147a9ee1df81d2962424496b98 CMakeFiles/myos
-40ff3c0383e143cfd37fdec39cda99fc boot.o
-8a7b419a54bc1611f2fe3b1943d99a11 gdt.o
-3f3bf1fe4e1fceb8bd66f63d65a4c243 kernel.o
-191efa3c89d4d75b5a6dd282e7625735 myos.bin
-9455d8fa9ab2f2933ffebc12f7dec542 testfont.o
-3c93dd5c132327db85bc17cb33b612d2 vesadrv.o
-97d68ecf7acf76ef5eed2e1866ddfd10 video.o
