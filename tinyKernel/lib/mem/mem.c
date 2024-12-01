@@ -1,8 +1,8 @@
-#include "mem.c"
+#include "mem.h"
 #include "string.h"
 //当目的内存>=源内存大小时，直接复制
 //当目的内存< 源内存大小时,把src中的内容填入到dest中，直到内存填满了
-void mem_copy(void* dest,void* src){
+void mem_copy(char* dest,char* src){
     int dest_size= strlen(dest);
     int src_size = strlen(src);
 
